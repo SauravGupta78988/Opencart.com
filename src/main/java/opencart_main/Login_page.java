@@ -54,6 +54,7 @@ public class Login_page extends Base_Library{
 		driver.findElement(By.xpath("//input[@placeholder=\"E-Mail Address\"]")).sendKeys(getExcelData(Path, 0, 2, 0));
 		driver.findElement(By.xpath("//input[@placeholder=\"Password\"]")).sendKeys(getExcelData(Path, 0, 4, 0));
 		driver.findElement(By.xpath("//input[@value=\"Login\"]")).click();
+		System.out.println("From Login Page");
 
 	}
 	
